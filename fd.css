@@ -1,0 +1,33 @@
+
+body
+{
+    font-style: italic;
+}
+
+
+.navbar
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+   
+}
+.section1{
+    background-image: url('imagebg.jpg');
+    background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+height: 1000px;
+}
+.header-links{
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+     /* Optional: Define the width of the container */
+  }
+  .item {
+    flex: 1; /* Optional: Define how flex items grow or shrink */
+    /* Other styles */
+  }
